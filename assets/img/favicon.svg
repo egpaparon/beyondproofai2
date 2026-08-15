@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Flynn Law Firm">
+  <rect width="64" height="64" rx="12" fill="#1A3C6E"/>
+  <path d="M21 17h23v7.5H29.5v8.2H42v7.5H29.5V49H21z" fill="#fff"/>
+  <rect x="21" y="52" width="23" height="3.6" rx="1.8" fill="#1B6FC7"/>
+</svg>
