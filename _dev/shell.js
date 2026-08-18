@@ -122,6 +122,7 @@ function header(p, current) {
             <a class="nav__panel-link" href="${p}workers-compensation/denied-claims.html"><strong>Denied &amp; Disputed Claims</strong><span>A denial is a position, not a verdict</span></a>
             <a class="nav__panel-link" href="${p}workers-compensation/permanent-disability.html"><strong>Permanent Disability &amp; Settlements</strong><span>PPD and PTD ratings, and what they're worth</span></a>
             <a class="nav__panel-link" href="${p}workers-compensation/retaliation.html"><strong>Fired for Filing a Claim?</strong><span>Retaliation rarely announces itself</span></a>
+            <a class="nav__panel-link" href="${p}workers-compensation/exclusive-remedy.html"><strong>Can I Sue My Employer?</strong><span>Exclusive remedy, and the narrow ways around it</span></a>
             <a class="nav__panel-link" href="${p}workers-compensation/injured-worker-guide.html"><strong>The Injured Worker's Guide</strong><span>Deadlines, forms and first steps</span></a>
           </div>
         </div>
@@ -215,6 +216,7 @@ function footer(p) {
           <li><a href="${p}workers-compensation/denied-claims.html">Denied claims</a></li>
           <li><a href="${p}workers-compensation/permanent-disability.html">Disability &amp; settlements</a></li>
           <li><a href="${p}workers-compensation/retaliation.html">Fired for filing</a></li>
+          <li><a href="${p}workers-compensation/exclusive-remedy.html">Can I sue my employer?</a></li>
           <li><a href="${p}workers-compensation/injured-worker-guide.html">Injured worker's guide</a></li>
         </ul>
       </div>

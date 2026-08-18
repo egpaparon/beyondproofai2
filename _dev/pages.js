@@ -285,6 +285,60 @@ module.exports = function ({ SERVICE, CRUMBS, FAQ }) {
     },
 
     {
+      slug: 'workers-compensation/exclusive-remedy.html',
+      part: 'wc-exclusive-remedy',
+      depth: 1,
+      nav: 'wc',
+      title: "Can I Sue My Employer in Oklahoma? | Exclusive Remedy | Flynn Law Firm",
+      description:
+        "Hurt at work in Oklahoma? Exclusive remedy means the Workers' Compensation Commission is usually the only place to bring the claim. The narrow exceptions — third-party claims, egregious employer conduct, uninsured employers — explained plainly.",
+      jsonld: {
+        '@context': 'https://schema.org',
+        '@graph': [
+          SERVICE(
+            'Exclusive Remedy and Third-Party Work Injury Claims',
+            "Representation of injured Oklahoma workers in workers' compensation claims and in third-party injury claims arising from the same workplace accident.",
+            'https://flynnlaw.net/workers-compensation/exclusive-remedy.html'
+          ),
+          CRUMBS([
+            { name: 'Home', path: '' },
+            { name: "Workers' Compensation", path: 'workers-compensation/' },
+            { name: 'Can I Sue My Employer?', path: 'workers-compensation/exclusive-remedy.html' }
+          ]),
+          FAQ([
+            [
+              'Can I sue my employer for a work injury in Oklahoma?',
+              "Generally no. Oklahoma's exclusive remedy rule means a work injury must be brought through the Workers' Compensation Commission rather than as a lawsuit against the employer. Narrow exceptions exist, including claims against third parties who caused the injury, egregious employer conduct, and employers who failed to carry required coverage."
+            ],
+            [
+              "What do I have to prove in an Oklahoma workers' compensation claim?",
+              'Workers\' compensation is a no-fault system. You generally do not have to prove your employer was negligent — broadly, you have to show you were on the clock and performing a valid work mission when the injury happened.'
+            ],
+            [
+              'What is a third-party work injury claim?',
+              'Exclusive remedy protects your employer, not anyone else. Where someone outside your company contributed to the injury — another driver, a subcontractor, an equipment manufacturer, a property owner — a separate injury claim may run alongside the compensation claim, and that claim can include pain and suffering.'
+            ],
+            [
+              "Can I sue if my employer removed a safety guard?",
+              'Possibly. Conduct that goes beyond carelessness into deliberate disregard for worker safety — removing machine guards, disconnecting emergency cut-off switches, defeating interlocks — can in rare cases overcome the exclusive remedy bar. The standard is high and the outcome depends entirely on the facts.'
+            ]
+          ])
+        ]
+      },
+      pageHead: {
+        breadcrumb: [HOME, WC, { name: 'Can I Sue My Employer?' }],
+        eyebrow: 'Exclusive Remedy',
+        h1: 'Can I sue my employer? <em>Usually not — here is why.</em>',
+        lead:
+          "Getting hurt at work is a personal injury. Oklahoma just sends it to a different court. Understanding that rule — and the three narrow ways around it — is often worth more than anything else on this website.",
+        actions: [
+          { cls: 'btn', href: 'tel:+19185830121', label: 'Call (918) 583-0121' },
+          { cls: 'btn btn--ghost-inverse', href: '{{P}}contact.html', label: 'Free case review' }
+        ]
+      }
+    },
+
+    {
       slug: 'workers-compensation/injured-worker-guide.html',
       part: 'wc-guide',
       depth: 1,
@@ -599,6 +653,10 @@ module.exports = function ({ SERVICE, CRUMBS, FAQ }) {
             [
               'How long do I have to act?',
               'Oklahoma sets separate deadlines for notifying your employer and for filing a workers’ compensation claim, and different rules apply to injury lawsuits and to railroad claims under FELA. Do not guess — a two-minute call will tell you.'
+            ],
+            [
+              'Can I sue my employer for a work injury in Oklahoma?',
+              "Generally no. Oklahoma's exclusive remedy rule sends work injuries to the Workers' Compensation Commission rather than an ordinary court. Narrow exceptions exist — most importantly a separate claim against someone other than your employer who contributed to the injury."
             ],
             [
               'Should I give a recorded statement?',
